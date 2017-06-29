@@ -1,0 +1,30 @@
+{
+  "name": "encrypt-laravel-5",
+  "version": "1.0.0",
+  "description": "Encrypt a JSON in such a way that php Laravel 5 can decrypt it.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kjuib/encryptLaravel5.git"
+  },
+  "keywords": [
+    "php",
+    "laravel",
+    "laravel5",
+    "encrypt",
+    "decrypt",
+    "javascript"
+  ],
+  "author": "Kjuib",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Kjuib/encryptLaravel5/issues"
+  },
+  "homepage": "https://github.com/Kjuib/encryptLaravel5#readme",
+  "dependencies": {
+    "php-serialize": "^1.2.5"
+  }
+}

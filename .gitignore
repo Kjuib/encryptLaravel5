@@ -1,0 +1,8 @@
+# package directories
+node_modules
+jspm_packages
+
+# IDE
+*.iml
+.idea
+.DS_Store
