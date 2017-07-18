@@ -1,2 +1,15 @@
 # encryptLaravel5
-Duplicate the encryption function of php Laravel v5. This will allow those php apps to decrypt this data.
+Duplicate the encryption/decryption of php Laravel v5.
+
+# Installation
+```bash
+    npm i encrypt-laravel-5 --save
+```
+
+# Use
+```javascript
+    let encryptLaravel5 = require('encrypt-laravel-5');
+    let encryptedValue = encryptLaravel5.encrypt('value1', '<your laravel5 api key here');
+    let decryptedValue = encryptLaravel5.decrypt(encryptedValue, '<your laravel5 api key here');
+    // decryptedValue === 'value1'
+```
